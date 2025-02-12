@@ -109,15 +109,11 @@ A utility class for collecting task input from the user.
 `TaskMapper`
 Maps `ResultSet` rows to `Task` objects.
 
-### `TaskService`
+`TaskService`
 Contains methods for adding, viewing, updating, and deleting tasks from the database.
 
-### `SearchCoordinator`
+`SearchCoordinator`
 Coordinates the task search operations, providing a menu for selecting the search criteria.
 
-### `TaskManagerApplication`
+`TaskManagerApplication`
 The entry point of the application, responsible for handling user input and interacting with the `TaskService` and `SearchCoordinator`.
-
-## License
-
-This project is licensed under the MIT License. See the LICENSE file for details.
